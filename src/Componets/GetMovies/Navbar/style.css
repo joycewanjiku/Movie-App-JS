@@ -1,0 +1,55 @@
+.caro {
+    width: 1000%;
+    max-width: 600px;
+    margin: 0 auto;
+    height: 50%;   }
+    .resize img {
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+    max-width: 500px;  }
+   .resize p {
+    font-size: 20px;
+    color: #e7b22c;
+    margin: 5px 0;
+  }
+   .resize
+  .title {
+    font-size:40px;
+    font-weight: bold;
+    color: #197cdf;
+  }
+  img{
+    display: flex;
+    display: grid;
+  }  .search-results {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #197cdf;
+   
+  } .search-result {
+    max-width: 300px;
+    margin: 20px;
+    padding: 15px;
+    border: 3px solid #ccc;
+    border-radius: 15px;
+    text-align: left;
+    
+  } .search-result img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 15px;
+    display: flex
+    
+  } .search-result h3 {
+    font-size: 18px;
+    margin-top: 15px;
+    color: blueviolet;
+  } .search-result p {
+    font-size: 20px;
+    margin-top: 10px;
+    color: green;
+  }
